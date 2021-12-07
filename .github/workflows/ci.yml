@@ -14,4 +14,4 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '11'
-      - run: java -cp java GremienDBAbfragen
+      - run: javac src/Main.java
